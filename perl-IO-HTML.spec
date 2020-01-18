@@ -1,6 +1,6 @@
 Name:           perl-IO-HTML
 Version:        1.00
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Open an HTML file with automatic character set detection
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -45,6 +45,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.00-2
+- Mass rebuild 2013-12-27
+
 * Thu Feb 28 2013 Petr Pisar <ppisar@redhat.com> - 1.00-1
 - 1.00 bump
 
